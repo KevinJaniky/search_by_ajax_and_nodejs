@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search by ajax and NodeJs</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    #content-data {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #content-data > div {
+        margin: 10px;
+    }
+
+    #sendrequest {
+        margin-top: 32px;
+    }
+</style>
+<body class="d-flex flex-column h-100">
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+    <div class="container">
+        <h1 class="mt-5">Search by ajax and NodeJs</h1>
+        <p class="lead">Search Engine with nodejs backend and html/jquery frontend</p>
+
+
+        <div class="form-content">
+            <form action="">
+                <div class="row">
+                    <div class="col-4" id="categorie_choice">
+                    </div>
+                    <div class="col-4" id="full_text">
+                        <div class="form-group">
+                            <label for="keyword_form">Keyword</label>
+                            <input type="email" class="form-control" id="keyword_form" placeholder="Enter email">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <input type="submit" class="btn btn-success" id="sendrequest">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="result-length">
+            <span>0</span> result(s)
+        </div>
+        <div id="content-data" style="">
+
+        </div>
+
+    </div>
+</main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</html>

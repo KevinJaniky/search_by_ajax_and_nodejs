@@ -1,0 +1,21 @@
+{
+  "name": "searcher",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Kevin JANIKY"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js --ext js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.21.1",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
